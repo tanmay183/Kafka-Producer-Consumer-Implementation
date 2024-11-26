@@ -8,11 +8,11 @@ from confluent_kafka.serialization import StringDeserializer
 
 # Define Kafka configuration
 kafka_config = {
-    'bootstrap.servers': 'pkc-619z3.us-east1.gcp.confluent.cloud:9092',
+    'bootstrap.servers': 'pkc-',
     'sasl.mechanisms': 'PLAIN',
     'security.protocol': 'SASL_SSL',
-    'sasl.username': 'UNZ4Z4DDJRJMONYL',
-    'sasl.password': 'sSmeyMvrx1eikEkpyERaWWiBJwXkEsRL7Ba5eq7OFFPGlOV+CO5J29HBqxkmQOBC',
+    'sasl.username': 'API Key',
+    'sasl.password': 'Secret Key',
     'group.id': 'group1',
     'auto.offset.reset': 'earliest'
 }
@@ -21,8 +21,8 @@ kafka_config = {
 
 # Create a Schema Registry client
 schema_registry_client = SchemaRegistryClient({
-  'url': 'https://psrc-4rw99.us-central1.gcp.confluent.cloud',
-  'basic.auth.user.info': '{}:{}'.format('L4QS6ZN6GLSO7XDF', 'CaIn5tBaaY4+udC5qY7H4wSyqBgsEUnAhdpd7b5xjduyuPbLcovETFkiH/Zla3ts')
+  'url': 'https://psrc-',
+  'basic.auth.user.info': '{}:{}'.format('API key', 'Secret key')
 })
 
 # Fetch the latest Avro schema for the value
