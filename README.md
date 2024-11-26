@@ -55,3 +55,9 @@ This project demonstrates real-time streaming using Confluent Kafka, including s
 3. Link the schema with the topic using the Data Contracts.
 
 ![Screenshot 2024-11-26 100804](https://github.com/user-attachments/assets/19ed7e5e-2a90-445e-9802-b5848cc1d225)
+
+
+https://github.com/user-attachments/assets/ade7847b-5ab7-43de-a988-9814c1ea12ac
+
+
+
